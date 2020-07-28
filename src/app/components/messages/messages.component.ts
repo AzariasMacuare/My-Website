@@ -54,6 +54,7 @@ import { trigger, style, state, animate, transition } from '@angular/animations'
     ])
   ]
 })
+
 export class MessagesComponent implements OnInit {
 
   public aloha: String = 'noVisible'
@@ -66,7 +67,7 @@ export class MessagesComponent implements OnInit {
       this.aloha = this.aloha === 'noVisible' ? 'visible' : 'noVisible';      
       this.aloha2 = this.aloha2 === 'true' ? 'false' : 'true';      
       this.ngOnInit()
-    }, 10000);
+    }, 8000);
   }
 
   phrase() {

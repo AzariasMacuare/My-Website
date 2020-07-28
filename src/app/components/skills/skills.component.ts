@@ -28,7 +28,7 @@ export class SkillsComponent implements OnInit {
       this.state = this.state == 'true' ? 'false' : 'true';
       this.state2 = this.state2 == 'true' ? 'false' : 'true';
       this.ngOnInit()
-    }, 10000);
+    }, 8000);
   }
 
 
